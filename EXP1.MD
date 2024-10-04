@@ -15,7 +15,7 @@ Cases
 5. Stop the program.
 ### Program:
 
-
+```
 ###do...while:
 def display():
     start = input("Enter a positive value for START: ")
@@ -98,11 +98,10 @@ def iterate():
 
 iterate()
 
-
+```
 
 ### Output:
 file:///C:/Users/pragu/STL/do%E2%80%A6while.png
-
 
 
 
