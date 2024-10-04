@@ -15,7 +15,30 @@ Write a python program to check the number is Armstrong number or not and inspec
 
 ### Program:
 
+```
+num = input("Enter a number: ")
+flag = 0
 
+if num.isnumeric():
+    z = int(num)
+    
+    if z == 2:
+        flag = 1
+    elif z > 2:
+        for i in range(2, z//2 + 1):
+            if z % i == 0:
+                flag = 0
+                break
+        else:
+            flag = 1
+    
+    if flag == 1:
+        print("Prime Number")
+    else:
+        print("Not a Prime Number")
+else:
+    print("Enter a Positive Number")
+```
 
 
 
@@ -29,6 +52,7 @@ Write a python program to check the number is Armstrong number or not and inspec
 
 ### Output:
 
+![stl-5 output](https://github.com/user-attachments/assets/dc0099c5-693d-4de7-a1c6-74c6fd09947a)
 
 
 ### Result:
