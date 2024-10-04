@@ -101,9 +101,11 @@ iterate()
 ```
 
 ### Output:
-file:///C:/Users/pragu/STL/do%E2%80%A6while.png
-
-
+![do…while](https://github.com/user-attachments/assets/cddc8a53-d9a0-45a0-aaeb-2ea840a6c82d)
+![stl whiledo](https://github.com/user-attachments/assets/fd5d9c60-3b61-4849-b1a7-ee80344fca7a)
+![if else](https://github.com/user-attachments/assets/adf29a65-0fb9-437c-88a3-8f9111b8db34)
+![switch stl-output](https://github.com/user-attachments/assets/ce1f514d-ef45-4d8b-9c08-22fe6003caeb)
+![for](https://github.com/user-attachments/assets/fa259510-959c-4d4a-90d5-c44cf4ce6509)
 
 
 
