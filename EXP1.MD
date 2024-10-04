@@ -14,6 +14,25 @@ Cases
 4.  the program with possible test cases.
 5. Stop the program.
 ### Program:
+def display():
+    start = input("Enter a positive value for START: ")
+    end = input("Enter a positive value for END: ")
+    
+    if start.isnumeric() and end.isnumeric():
+        start = int(start)
+        end = int(end)
+        
+        if start > 0 and end > 0: 
+            while start <= end:   
+                print(start, end=' ')
+                start += 1
+        else:
+            print("Both START and END should be positive numbers.")
+    else:
+        print("Enter a valid positive number.")
+
+display()
+
 
 
 
@@ -29,6 +48,7 @@ Cases
 
 
 ### Output:
+"file:///C:/Users/pragu/STL/do%E2%80%A6while.png"
 
 
 
