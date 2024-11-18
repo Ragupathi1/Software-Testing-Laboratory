@@ -49,7 +49,7 @@ else:
 
 ### Output:
 
-file:///C:/Users/pragu/Downloads/WhatsApp%20Image%202024-11-18%20at%2021.54.15_fc811938.jpg
+![Uploading WhatsApp Image 2024-11-18 at 21.54.15_fc811938.jpg…]()
 
 
 
