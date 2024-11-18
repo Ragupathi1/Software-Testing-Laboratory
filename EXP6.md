@@ -49,7 +49,7 @@ else:
 
 ### Output:
 
-![Uploading WhatsApp Image 2024-11-18 at 21.54.15_fc811938.jpg…]()
+![image](https://github.com/user-attachments/assets/aaf5e57f-b1d0-473c-8dd4-1e853131a539)
 
 
 
