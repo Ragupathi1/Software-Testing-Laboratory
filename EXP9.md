@@ -16,7 +16,27 @@ should have assert keyword at the beginning.
 
 ### Program:
 
+```
+def sum_of_digits(number: int) -> int:
+    if number < 0:
+        raise ValueError("Input should be a non-negative integer")
+    return sum(int(digit) for digit in str(number))
 
+def test_sum_of_digits_positive():
+    assert sum_of_digits(123) == 6
+    assert sum_of_digits(456) == 15
+    assert sum_of_digits(98765) == 35
+
+def test_sum_of_digits_zero():
+    assert sum_of_digits(0) == 0
+
+def test_sum_of_digits_large_number():
+    assert sum_of_digits(1234567890) == 45
+
+def test_sum_of_digits_negative():
+    with pytest.raises(ValueError):
+        sum_of_digits(-123)
+```
 
 
 
@@ -27,6 +47,8 @@ should have assert keyword at the beginning.
 
 
 ### Output:
+
+![image](https://github.com/user-attachments/assets/73da3f6d-6112-4edc-b113-50106501c991)
 
 
 
